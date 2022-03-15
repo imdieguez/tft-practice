@@ -1,0 +1,51 @@
+.champ-container {
+    width: 100vw;
+    margin: 0 auto;
+    border: 5px solid black;
+    display: flex;
+    column-gap: 10px;
+    background-color: black;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+body > h1 {
+    font-size: 2rem;
+    text-align: center;
+    padding: 10px 0;
+    background-color: black;
+    color: white;
+    border-bottom: 0.1px solid white;
+}
+
+.champ {
+    padding: 5px 0;
+}
+
+img {
+    width: 100%;
+}
+
+button {
+    margin: 30px auto 0;
+    display: block;
+    font-size: 2rem;
+    border: none;
+    border-radius: 10px;
+    padding: 10px 20px;
+    color: white;
+    background-color: goldenrod;
+}
+
+button:hover {
+    background-color: rgb(243, 198, 84);
+}
+
+button:active {
+    background-color: goldenrod;
+}
+
+.hidden {
+    display: none;
+}
